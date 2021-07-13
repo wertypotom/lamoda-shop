@@ -1,0 +1,22 @@
+// file that is used to indicate what folders and files we don't want to include in our GIT repository
+
+node_modules
+
+// 1) git init -> initiate git
+// 2) git status -> check the status of files. Shows U-untracked, if current files not truct
+// 3) git add -A -> add all philes to the tracked list. If we made changes in file, it will be marked M-modified. Input 'git add -A' again, so the changes will be saved
+// 4) git commit -m 'Initial commit'
+
+//---------------------------------------------------
+
+// 5) git reset --hard HEAD -> delete all the previous changes
+// 6) git reset --hard id -> returns to the file version mentioned in id
+
+//---------------------------------------------------
+
+// 7) git branch -> allows to see the branches and in which branch you currently in
+// 8) git branch new-feature -> create new branch with name 'new feature', so we can work in this branch not affecting the main one
+// 9) git checkout new-feature -> we are currently in branch 'new feature'
+// 10 ) git merge new-feature -> we should be in 'master' branch, and master branch will be merged with 'new-feature', so code in this branches now is identical  
+
+// github git cheat sheet ---> for more info
